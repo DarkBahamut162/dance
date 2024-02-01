@@ -11,5 +11,4 @@ I yoinked them from [Project OutFox's Noteskins Content Section](https://project
 # What I didn't do (yet?)
 - Not all Noteskins are truly double-sided
   - Mines aren't double-sided at all
-- Not all Noteskins have Fakes/Lifts
 - None of them have Center Tap Notes
