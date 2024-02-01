@@ -1,22 +1,33 @@
 local USWN = {}
 USWN.ButtonRedir = {
-	Up = "Down",
-	Down = "Down",
-	Left = "Down",
-	Right = "Down",
-	UpLeft = "Down",
-	UpRight = "Down"
+	-- cardinal directions
+	Up			= "Down",
+	Down		= "Down",
+	Left		= "Down",
+	Right		= "Down",
+	-- ordinal directions
+	UpLeft		= "Down",
+	UpRight		= "Down",
+	DownLeft	= "Down",
+	DownRight	= "Down",
+	-- center is center
+	Center 		= "Center"
 }
 USWN.Rotate = {
-	Up = 180,
-	Down = 0,
-	Left = 90,
-	Right = -90,
-	UpLeft = 135,
-	UpRight = 225
+	-- cardinal directions
+	Up			= 180,
+	Down		= 0,
+	Left		= 90,
+	Right		= -90,
+	-- ordinal directions
+	UpLeft		= 135,
+	UpRight		= 225,
+	DownLeft	= 45,
+	DownRight	= -45,
+	-- center is center
+	Center 		= 0
 }
 USWN.ElementRedir = {
-	["Tap Fake"] = "Tap Note",
 	["Roll Explosion"] = "Hold Explosion"
 }
 USWN.PartsToRotate = {
@@ -28,6 +39,7 @@ USWN.PartsToRotate = {
 	["Tap Explosion Dim W5"] = true,
 	["Tap Note"] = true,
 	["Tap Fake"] = true,
+	["Tap Lift"] = true,
 	["Tap Addition"] = true,
 	["Hold Explosion"] = true,
 	["Hold Head Active"] = true,
