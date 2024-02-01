@@ -277,7 +277,7 @@ Materials: 2
 0.000000 0.000000 0.000000 1.000000
 0.185600
 1.000000
-"textures/Note/scroller.ini"
+"textures/Fake/scroller.ini"
 ""
 "shell"
 1.000000 1.000000 1.000000 1.000000
@@ -286,7 +286,7 @@ Materials: 2
 0.000000 0.000000 0.000000 1.000000
 0.185600
 1.000000
-"textures/shell.png"
+"textures/lift.png"
 ""
 
 Bones: 0
